@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main-head{
+    background-color: coral;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+#nav-bar{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#nav-bar li{
+    display: inline;
+    padding-right: 30px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-bar a:hover{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#showcase{
+    min-height: 300px;
+    background-image: url('images/GOLDEN WALL.jpeg');
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.black-bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 300px;
+    padding: 100px 50px 50px 50px;
+    text-align: center;
+}
+
+.container{
+   padding: 70px 20px;
+   min-height: 100px;
+}
+
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+#content h3{
+    padding-bottom: 15px;
+}
+
+#sidebar{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 50px;
+    background-color: #333;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+}
+
+@media(max-width:600px){
+    
+    .container{
+        min-height: 200px;
+        padding: 20px;
+        margin: 50px 0px;
+    }
+
+    #content{
+        margin: 0;
+        padding: 0px 10px 0px 5px;
+    }
+
+    #sidebar{
+        min-height: 30px;
+        padding: 15px;
+    }
+
+    #main-footer{
+        margin-top: 180px;
+    }
+
+    #main-head{
+        padding: 0;
+    }
+
+    #nav-bar{
+        padding-top: 23px;
+        padding-right: 0px;
+        font-size: 13pt;
+        font-weight: bold;
+    }
+
+    #main-head h1{
+        padding: 20px;
+        font-size: 16pt;
+    }
+
+}
